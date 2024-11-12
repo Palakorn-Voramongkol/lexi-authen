@@ -1,0 +1,6 @@
+@LexiAuthenAPI.Tests_HostAddress = http://localhost:5015
+
+GET {{LexiAuthenAPI.Tests_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

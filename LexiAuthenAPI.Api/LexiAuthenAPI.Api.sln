@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LexiAuthenAPI.Api", "LexiAuthenAPI.Api.csproj", "{65BA0E6D-8C12-4054-83ED-7E9CB3928454}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LexiAuthenAPI.Domain", "..\LexiAuthenAPI.Domain\LexiAuthenAPI.Domain.csproj", "{2006765E-0D65-486F-9DFB-72540CE7EC54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LexiAuthenAPI.Infrastructure", "..\LexiAuthenAPI.Infrastructure\LexiAuthenAPI.Infrastructure.csproj", "{F2877254-4AA3-4C76-8101-F47CFDB726EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LexiAuthenAPI.Tests", "..\LexiAuthenAPI.Tests\LexiAuthenAPI.Tests.csproj", "{A6CEA3F4-709C-4B79-AC0C-7757B69E1A29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65BA0E6D-8C12-4054-83ED-7E9CB3928454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65BA0E6D-8C12-4054-83ED-7E9CB3928454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65BA0E6D-8C12-4054-83ED-7E9CB3928454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65BA0E6D-8C12-4054-83ED-7E9CB3928454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2006765E-0D65-486F-9DFB-72540CE7EC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2006765E-0D65-486F-9DFB-72540CE7EC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2006765E-0D65-486F-9DFB-72540CE7EC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2006765E-0D65-486F-9DFB-72540CE7EC54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2877254-4AA3-4C76-8101-F47CFDB726EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2877254-4AA3-4C76-8101-F47CFDB726EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2877254-4AA3-4C76-8101-F47CFDB726EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2877254-4AA3-4C76-8101-F47CFDB726EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CEA3F4-709C-4B79-AC0C-7757B69E1A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CEA3F4-709C-4B79-AC0C-7757B69E1A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CEA3F4-709C-4B79-AC0C-7757B69E1A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CEA3F4-709C-4B79-AC0C-7757B69E1A29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7BE45B7-5DA2-4FF9-B551-CF64BC14557A}
+	EndGlobalSection
+EndGlobal
