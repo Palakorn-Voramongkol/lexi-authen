@@ -81,12 +81,25 @@ namespace LexiAuthenAPI.Api.Services
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_jwtSettings.Secret);
 
-            var claims = new[]
+            var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                 new Claim(ClaimTypes.Name, user.Username),
-                // Add additional claims as needed
+                
             };
+
+            // Add a custom claim for roles as an array with both ID and name
+            if (user.UserRoles != null && user.UserRoles.Any())
+            {
+                var roles = user.UserRoles.Select(ur => new
+                {
+                    id = ur.Role.Id,
+                    name = ur.Role.Name
+                }).ToList();
+
+                // Add the roles claim as a serialized JSON string
+                claims.Add(new Claim("roles", System.Text.Json.JsonSerializer.Serialize(roles)));
+            }
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {
