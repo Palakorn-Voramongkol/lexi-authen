@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using LexiAuthenAPI.Api.Services;
 using LexiAuthenAPI.Api.DTOs.Role;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LexiAuthenAPI.Api.Controllers
 {
