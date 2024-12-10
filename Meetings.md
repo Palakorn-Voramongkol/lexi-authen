@@ -1,6 +1,6 @@
 # Meeting Notes
 
-## 12/11/24
+## 12/11/2024
 
 ### Suggestion(s)
 
