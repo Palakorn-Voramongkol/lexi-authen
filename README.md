@@ -9,6 +9,11 @@ The project is structured as follows:
 - `LexiAuthenAPI.Domain`: Contains the domain models and entities.
 - `LexiAuthenAPI.Infrastructure`: Implements data access and the `ApplicationDbContext` for interacting with the database.
 
+## Architecture
+Below is an illustration of the API architecture within the full-stack diagram:
+
+![API Architecture](images/api-service.png)
+
 ## Key Features
 - User management (Create, update, delete users)
 - Role management (Assign, remove roles)
@@ -27,3 +32,4 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/yourusername/LexiAuthenAPI.git
    cd LexiAuthenAPI
+   ```
