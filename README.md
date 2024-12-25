@@ -1,4 +1,3 @@
-```markdown
 # LexiAuthenAPI 🌟
 
 ![API Architecture](images/api-service.png)
@@ -9,20 +8,26 @@ Welcome to **LexiAuthenAPI**! 🚀
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Architecture](#architecture)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-  - [How to Contribute](#how-to-contribute)
-  - [Guidelines](#guidelines)
-- [License](#license)
-- [Support](#support)
+- [LexiAuthenAPI 🌟](#lexiauthenapi-)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Project Structure](#project-structure)
+  - [Architecture](#architecture)
+    - [Key Components](#key-components)
+  - [Tech Stack](#tech-stack)
+    - [Backend](#backend)
+    - [Tools \& Libraries](#tools--libraries)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Usage](#usage)
+    - [Accessing Swagger UI](#accessing-swagger-ui)
+    - [Authentication](#authentication)
+  - [Contributing](#contributing)
+    - [How to Contribute](#how-to-contribute)
+    - [Guidelines](#guidelines)
+  - [License](#license)
 
 ## Introduction
 
